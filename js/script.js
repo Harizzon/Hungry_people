@@ -1,5 +1,9 @@
 "use strict";
 
-let rast = +prompt("enter rast", 0);
 
-alert((rast/40)*60);
+
+let arr = [1, 2, 3, 4, 5, 6];
+
+for (let key in arr) {
+    alert(arr[key]);
+}
