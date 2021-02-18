@@ -1,9 +1,24 @@
 "use strict";
 
+let dist = 42;
+
+let coveredDist = 0;
+let days = 0;
 
 
-let arr = [1, 2, 3, 4, 5, 6];
-
-for (let key in arr) {
-    alert(arr[key]);
+while (coveredDist <= dist) {
+    coveredDist = coveredDist + 7-2;
+    console.log(coveredDist + " dist");
+    console.log(days+ ' days');
+    console.log("-------");
+    
+    if (  coveredDist > dist && coveredDist == dist) {
+        break;
+    } else {
+        days++;
+    }
+    
 }
+
+console.log(days);
+
