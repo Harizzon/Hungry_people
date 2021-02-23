@@ -194,7 +194,7 @@ section {
 h2 {
     font-family: 'Krona One', sans-serif;
     font-size: 2.250em;
-    line-height: 0.5;
+    line-height: 1.2;
     text-transform: uppercase;    
     text-align: center;
     position: relative;
@@ -314,7 +314,7 @@ h3 {
     border-bottom: 5px solid yellow;  
     content:'';  
     position: absolute;
-    bottom: 9.5em;
+    bottom: 8.5em;
     right: 45%;
 }
 
@@ -334,4 +334,97 @@ h3 {
 
 /* Section Book table ________________-*/
 
+.book-table {
+    position: relative;
+}
 
+
+
+.book-form {
+    width: 100%;    
+    height: inherit;    
+
+    margin: 10.125em 4.500em 10.125em 4em;
+}
+
+.book input, select {
+    width: 14.188em;
+    height: 3.750em;
+
+    margin: 5px 5px;
+    border-radius: 5px;
+    background-color: rgba(229, 229, 229, 1);
+    border: none;
+       
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.b-box {
+    width: 50%;    
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+
+.submit {
+    width: 69%;
+    height: 3.750em;
+    border-radius: 5px;
+    border: none;
+
+    margin-left: 6.5em;   
+    background: rgba(232, 195, 0, 1);
+   
+
+}
+
+.table::after {
+    width: 60px;
+    height: 1px;
+    border-bottom: 5px solid yellow;  
+    content:'';  
+    position: absolute;
+    bottom: -0.75em;
+    right: 45%;
+}
+
+.contact-info {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: rgba(51, 51, 51, 0.5);
+
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+
+/* Specialties _______________________________ */
+
+.SPECIALTIES {
+     background: black url('../img/specialt-bg.png') center 
+    no-repeat;
+}
+
+.spec.text-block::after {
+    width: 60px;
+    height: 1px;
+    border-bottom: 5px solid yellow;  
+    content:'';  
+    position: absolute;
+    bottom: 40%;
+    right: 45%;
+}
